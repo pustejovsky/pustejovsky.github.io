@@ -5,7 +5,7 @@ permalink: /
 banner_image: "assets/img/Picture1.png"
 title_link: "https://www.brandeis.edu/computer-science/" #
 # subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
-subtitle: TJX/Feldberg Chair of Computer Science
+subtitle: TJX Feldberg Chair of Computer Science
 
 profile:
   align: right
@@ -21,4 +21,6 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Write your biography here.
+James Pustejovsky is the TJX Feldberg Chair in Computer Science at Brandeis University, where he is also Chair of the Linguistics Program, Chair of the Computational Linguistics MS Program, and Director of the Lab for Linguistics and Computation. His areas of research include computational semantics, temporal reasoning, lexical semantics, situated grounding, multimodal dialogue for human computer interaction, and compositional distributional semantics.
+![image](https://github.com/user-attachments/assets/184f6392-5f71-4d3c-96d1-a17edec51577)
+
