@@ -2,7 +2,7 @@
 layout: page
 title: Situated Grounding
 description: another without an image
-img:
+img: 
 importance: 3
 category: fun
 ---
