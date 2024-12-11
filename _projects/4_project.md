@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Computational Common Ground
+title: Situated Grounding
 description: another without an image
 img:
 importance: 3
