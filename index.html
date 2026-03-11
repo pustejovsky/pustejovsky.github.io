@@ -1,0 +1,960 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>James Pustejovsky — Brandeis University</title>
+  <meta name="description" content="James Pustejovsky is the TJX Feldberg Chair in Computer Science at Brandeis University. Research in computational semantics, NLP, temporal reasoning, and lexical semantics." />
+  <meta name="keywords" content="James Pustejovsky, computational linguistics, NLP, Brandeis, generative lexicon, temporal reasoning, lexical semantics" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="James Pustejovsky — Brandeis University" />
+  <meta property="og:description" content="TJX Feldberg Chair in Computer Science. Director, Lab for Linguistics and Computation." />
+  <meta property="og:url" content="https://pustejovsky.github.io" />
+  <meta property="og:type" content="website" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,700;1,400&display=swap" rel="stylesheet" />
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="assets/css/main.css" />
+</head>
+<body>
+
+<!-- ══════════════════════════════════════════
+     NAVBAR
+══════════════════════════════════════════ -->
+<nav id="navbar">
+  <div class="container nav-inner">
+    <a href="#hero" class="nav-brand">James <span>Pustejovsky</span></a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#research">Research</a></li>
+      <li><a href="#lab">Lab</a></li>
+      <li><a href="#publications">Publications</a></li>
+      <li><a href="#journals">Journals</a></li>
+      <li><a href="#books">Books</a></li>
+      <li><a href="#teaching">Teaching</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="https://scholar.google.com/citations?user=56UT_6IAAAAJ&hl=en" target="_blank" rel="noopener" style="display:inline-block;padding:.35rem 1rem;border-radius:99px;font-size:.82rem;font-weight:600;background:var(--accent);color:#2a1a08;border:none;">Google Scholar ↗</a></li>
+    </ul>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+
+<!-- ══════════════════════════════════════════
+     HERO
+══════════════════════════════════════════ -->
+<section id="hero">
+  <div class="container hero-inner">
+    <div class="hero-text">
+      <a href="https://www.brandeis.edu/computer-science/" target="_blank" rel="noopener" class="hero-eyebrow" style="text-decoration:none;">
+        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" viewBox="0 0 20 20"><path d="M10.394 2.08a1 1 0 00-.788 0l-7 3a1 1 0 000 1.84L5.25 8.051a.999.999 0 01.356-.357l4-2a1 1 0 11.788 1.84l-2.649 1.324 1.17.5a1 1 0 00.788 0l6-2.571a1 1 0 000-1.84l-5.25-2.25zM9.999 9.75l-4.26-1.837L3 8.913V13a1 1 0 00.553.894l6 3a1 1 0 00.894 0l6-3A1 1 0 0017 13V8.913l-2.739 1-.002-.001L10 9.75z"/></svg>
+        Brandeis University · Computer Science
+      </a>
+      <h1>James Pustejovsky</h1>
+      <p class="hero-subtitle">TJX Feldberg Chair in Computer Science</p>
+      <p class="hero-inst">Director, Lab for Linguistics and Computation &nbsp;·&nbsp; Chair, <a href="https://www.brandeis.edu/computer-science/computational-linguistics/masters/index.html" target="_blank" rel="noopener" style="color:rgba(255,255,255,.85);text-decoration:underline;text-underline-offset:3px;">Computational Linguistics MS Program</a> &nbsp;·&nbsp; Chair, <a href="https://www.brandeis.edu/computer-science/computational-linguistics/masters/index.html" target="_blank" rel="noopener" style="color:rgba(255,255,255,.85);text-decoration:underline;text-underline-offset:3px;">Linguistics Program</a></p>
+      <p class="hero-bio">
+        I develop computational and cognitive models of natural language meaning — how words encode
+        knowledge, how events and time are represented, and how language grounds meaning in physical
+        and social context. My work spans Generative Lexicon Theory, temporal and spatial semantics,
+        multimodal dialogue, and large-scale language annotation.
+      </p>
+      <div class="hero-actions">
+        <a href="#publications" class="btn btn-primary">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M4 4a2 2 0 012-2h4.586A2 2 0 0112 2.586L15.414 6A2 2 0 0116 7.414V16a2 2 0 01-2 2H6a2 2 0 01-2-2V4z" clip-rule="evenodd"/></svg>
+          Publications
+        </a>
+        <a href="#research" class="btn btn-ghost">Research Areas</a>
+        <a href="#contact" class="btn btn-ghost">Contact</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat-item">
+          <span class="stat-number">277+</span>
+          <span class="stat-label">i10-index</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-number">75</span>
+          <span class="stat-label">h-index</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-number">33,677</span>
+          <span class="stat-label">Citations</span>
+        </div>
+      </div>
+    </div>
+    <div class="hero-photo-wrap">
+      <img src="assets/img/MeAtPratt.jpg" alt="James Pustejovsky" class="hero-photo" />
+    </div>
+  </div>
+</section>
+
+<!-- Quick links bar -->
+<div class="quick-links-bar">
+  <div class="container quick-links-inner">
+    <a href="https://scholar.google.com/citations?user=56UT_6IAAAAJ&hl=en" target="_blank" rel="noopener" class="quick-link">
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M5.242 13.769L0 9.5 12 0l12 9.5-5.242 4.269C17.548 11.249 14.978 9.5 12 9.5c-2.977 0-5.548 1.748-6.758 4.269zM12 10a7 7 0 100 14 7 7 0 000-14z"/></svg>
+      Google Scholar
+    </a>
+    <a href="https://aclanthology.org/people/james-pustejovsky/" target="_blank" rel="noopener" class="quick-link">
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+      ACL Anthology
+    </a>
+    <a href="https://www.researchgate.net/profile/James-Pustejovsky" target="_blank" rel="noopener" class="quick-link">
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M19.586 0c-.818 0-1.508.19-2.073.565-.563.377-.97.936-1.213 1.68a3.193 3.193 0 0 0-.112.437 8.365 8.365 0 0 0-.078.53 9 9 0 0 0-.05.727c-.01.282-.013.621-.013 1.016a31.121 31.121 0 0 0 .014 1.017 9 9 0 0 0 .05.727 7.946 7.946 0 0 0 .077.53 3.225 3.225 0 0 0 .112.437c.243.743.65 1.303 1.213 1.677.565.375 1.255.562 2.073.562.966 0 1.71-.282 2.234-.846.524-.562.787-1.364.787-2.403V6.734h-3.338v.633h2.74v1.21c0 .7-.168 1.24-.504 1.614-.335.378-.83.565-1.485.565-.62 0-1.106-.19-1.457-.565-.35-.378-.524-.94-.524-1.69V4.062c0-.755.174-1.32.524-1.694.35-.375.838-.565 1.457-.565.62 0 1.106.19 1.457.565.35.377.524.94.524 1.694v.453h.598v-.453c0-1.04-.262-1.84-.786-2.403C21.296.282 20.552 0 19.586 0zM0 .19v11.577h3.734c.968 0 1.723-.262 2.263-.783.54-.52.81-1.264.81-2.232 0-.712-.186-1.32-.556-1.822-.37-.503-.886-.826-1.546-.968.52-.178.927-.47 1.218-.877.29-.407.437-.9.437-1.478 0-.92-.284-1.63-.85-2.132C5.043.444 4.238.19 3.2.19H0zm.6.563h2.6c.897 0 1.596.208 2.095.62.498.413.748 1.01.748 1.79 0 .533-.16.985-.48 1.356-.32.37-.756.6-1.303.697v.053c.697.097 1.235.347 1.618.754.383.408.574.963.574 1.666 0 .87-.28 1.548-.837 2.034-.558.487-1.328.73-2.313.73H.6V.753zm.6.597v4.42h2c.8 0 1.398-.192 1.797-.578.398-.385.598-.936.598-1.65 0-.72-.194-1.26-.583-1.624C4.62 1.56 4.01 1.35 3.2 1.35H1.2zm0 5.015v4.74h2.534c.93 0 1.638-.214 2.12-.642.484-.428.726-1.045.726-1.848 0-.748-.238-1.33-.712-1.743-.475-.412-1.134-.617-1.97-.617H1.2v.11z"/></svg>
+      ResearchGate
+    </a>
+    <a href="https://www.linkedin.com/in/james-pustejovsky-839a994/" target="_blank" rel="noopener" class="quick-link">
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+      LinkedIn
+    </a>
+    <a href="mailto:jamesp@brandeis.edu" class="quick-link">
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+      jamesp@brandeis.edu
+    </a>
+    <a href="https://www.brandeis.edu/computer-science/" target="_blank" rel="noopener" class="quick-link">
+      <img src="assets/img/brandeisunivseal.png" alt="Brandeis" style="width:16px;height:16px;object-fit:contain;" />
+      Brandeis CS
+    </a>
+  </div>
+</div>
+
+
+<!-- ══════════════════════════════════════════
+     RESEARCH
+══════════════════════════════════════════ -->
+<section id="research" class="section section-alt">
+  <div class="container">
+    <div class="fade-in">
+      <span class="section-label">What I Work On</span>
+      <h2 class="section-title">Research Areas</h2>
+      <p class="section-subtitle">
+        My research bridges formal linguistics and machine intelligence — building theories and
+        computational tools for understanding how language encodes meaning in context.
+      </p>
+    </div>
+    <div class="research-grid fade-in">
+
+      <div class="research-card">
+        <div class="rc-icon rc-icon-gold">📖</div>
+        <h3>Generative Lexicon Theory</h3>
+        <p>A formal framework for representing the rich, generative nature of word meaning — accounting for polysemy, coercion, and sense extension through qualia structure and type composition.</p>
+        <div style="margin-top:.75rem;">
+          <span class="tag tag-gold">Lexical Semantics</span>
+          <span class="tag tag-gold">Polysemy</span>
+          <span class="tag tag-gold">Type Theory</span>
+        </div>
+      </div>
+
+      <div class="research-card">
+        <div class="rc-icon rc-icon-blue">⏱</div>
+        <h3>Temporal Reasoning &amp; TimeML</h3>
+        <p>Chief architect of TimeML and ISO-TimeML, an international ISO standard for annotating events and temporal relations in text. Includes the TARSQI toolkit for temporal parsing and reasoning.</p>
+        <div style="margin-top:.75rem;">
+          <span class="tag">TimeML</span>
+          <span class="tag">ISO Standard</span>
+          <span class="tag">Event Semantics</span>
+        </div>
+      </div>
+
+      <div class="research-card">
+        <div class="rc-icon rc-icon-teal">🗺</div>
+        <h3>Spatial Language &amp; ISO-Space</h3>
+        <p>Developing formal representations for spatial information in natural language — including locations, paths, motion events, and spatial relations — through the ISO-Space annotation framework.</p>
+        <div style="margin-top:.75rem;">
+          <span class="tag tag-teal">ISO-Space</span>
+          <span class="tag tag-teal">Motion Events</span>
+          <span class="tag tag-teal">Spatial Reasoning</span>
+        </div>
+      </div>
+
+      <div class="research-card">
+        <div class="rc-icon rc-icon-purple">🤖</div>
+        <h3>Multimodal Dialogue &amp; HCI</h3>
+        <p>Grounding language meaning in visual and physical context for human-robot and human-computer interaction, including the VoxWorld platform for embodied multimodal agents.</p>
+        <div style="margin-top:.75rem;">
+          <span class="tag" style="background:rgba(124,58,237,.1);color:#7c3aed;">Embodied AI</span>
+          <span class="tag" style="background:rgba(124,58,237,.1);color:#7c3aed;">VoxWorld</span>
+          <span class="tag" style="background:rgba(124,58,237,.1);color:#7c3aed;">Common Ground</span>
+        </div>
+      </div>
+
+      <div class="research-card">
+        <div class="rc-icon rc-icon-blue">🏷</div>
+        <h3>Language Annotation &amp; NLP</h3>
+        <p>Large-scale linguistic annotation for machine learning, including PropBank, TimeBank, UMR (Uniform Meaning Representation), and the CLAMS platform for multimedia NLP.</p>
+        <div style="margin-top:.75rem;">
+          <span class="tag">UMR</span>
+          <span class="tag">PropBank</span>
+          <span class="tag">CLAMS</span>
+        </div>
+      </div>
+
+      <div class="research-card">
+        <div class="rc-icon rc-icon-teal">🔗</div>
+        <h3>Compositional Distributional Semantics</h3>
+        <p>Integrating formal compositional meaning with distributional models — from noun-noun compound interpretation and metaphor detection to semantically enriched text generation.</p>
+        <div style="margin-top:.75rem;">
+          <span class="tag tag-teal">Distributional</span>
+          <span class="tag tag-teal">Metaphor</span>
+          <span class="tag tag-teal">NLG</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ══════════════════════════════════════════
+     LAB
+══════════════════════════════════════════ -->
+<section id="lab" class="section section-dark">
+  <div class="container">
+    <div class="lab-header fade-in">
+      <div>
+        <span class="section-label">Brandeis University</span>
+        <h2 class="section-title" style="color:#fff;">Lab for Linguistics<br>&amp; Computation</h2>
+        <p style="color:rgba(255,255,255,.65);margin-bottom:1.25rem;">
+          The BLLC focuses on computational and cognitive modelling of natural language meaning —
+          how words combine to create meaningful texts, how context shapes interpretation, and how
+          computational tools can capture this richness at scale.
+        </p>
+        <p style="color:rgba(255,255,255,.65);margin-bottom:1.5rem;">
+          Lab members work on annotation frameworks, formal semantics, embodied AI, and NLP systems
+          with applications ranging from clinical text to archival media to human-robot interaction.
+        </p>
+        <a href="https://www.cs.brandeis.edu/~llc/" target="_blank" rel="noopener" class="btn btn-ghost">
+          Visit Lab Website ↗
+        </a>
+      </div>
+      <div>
+        <div style="background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.1);border-radius:var(--radius-lg);padding:1.5rem;">
+          <h4 style="color:#fff;margin-bottom:1rem;font-size:1rem;">Lab Director &amp; Affiliations</h4>
+          <ul style="display:flex;flex-direction:column;gap:.6rem;">
+            <li style="color:rgba(255,255,255,.7);font-size:.9rem;">🏛 Director, Lab for Linguistics and Computation</li>
+            <li style="color:rgba(255,255,255,.7);font-size:.9rem;">📚 Chair, Computational Linguistics MS Program</li>
+            <li style="color:rgba(255,255,255,.7);font-size:.9rem;">🔤 Chair, Linguistics Program</li>
+            <li style="color:rgba(255,255,255,.7);font-size:.9rem;">🧠 Affiliated Faculty, Volen Center for Complex Systems</li>
+            <li style="color:rgba(255,255,255,.7);font-size:.9rem;">📐 Head, ISO/TC37/SC4 Semantic Annotation Framework</li>
+            <li style="color:rgba(255,255,255,.7);font-size:.9rem;">🤝 NSF AI Institute for Student-AI Teaming (iSAT)</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <h3 style="color:#fff;margin-bottom:1.25rem;font-size:1.1rem;letter-spacing:.04em;">Active Research Projects</h3>
+    <div class="lab-projects fade-in">
+
+      <div class="project-card">
+        <div class="project-tag">Platform</div>
+        <h4>VoxWorld</h4>
+        <p>A multimodal platform for embodied agents enabling grounded language understanding through 3D simulation, gesture, and dialogue.</p>
+      </div>
+
+      <div class="project-card">
+        <div class="project-tag">NLP System</div>
+        <h4>CLAMS</h4>
+        <p>Computational Linguistics Applications for Multimedia Services — NLP pipelines for the American Archive of Public Broadcasting.</p>
+      </div>
+
+      <div class="project-card">
+        <div class="project-tag">Annotation</div>
+        <h4>UMR (Uniform Meaning Representation)</h4>
+        <p>Cross-lingual semantic annotation extending AMR with event structure, aspect, quantification, and temporal information.</p>
+      </div>
+
+      <div class="project-card">
+        <div class="project-tag">Semantics</div>
+        <h4>GLAMR</h4>
+        <p>Augmenting Abstract Meaning Representation with GL-VerbNet event structure for richer semantic parsing and inference.</p>
+      </div>
+
+      <div class="project-card">
+        <div class="project-tag">Dialogue</div>
+        <h4>TRACE</h4>
+        <p>Real-time multimodal common ground tracking in situated collaborative dialogues — tracking shared beliefs and intentions.</p>
+      </div>
+
+      <div class="project-card">
+        <div class="project-tag">Standards</div>
+        <h4>ISO-TimeML / ISO-Space</h4>
+        <p>International ISO annotation standards for temporal and spatial information, developed through the ISO/TC37 working group.</p>
+      </div>
+
+      <div class="project-card">
+        <div class="project-tag">DARPA</div>
+        <h4>Communicating with Computers (CwC)</h4>
+        <p>DARPA-funded program exploring how ideas are conveyed between humans and computers through language, gesture, visualization, and collaborative action in simulation environments.</p>
+      </div>
+
+      <div class="project-card">
+        <div class="project-tag">Infrastructure</div>
+        <h4>LAPPS Grid</h4>
+        <p>Language Application Grid — an open web service platform for NLP research enabling interoperability of linguistic tools and resources across institutions.</p>
+      </div>
+
+      <div class="project-card">
+        <div class="project-tag">Lexical Resources</div>
+        <h4>VerbNet + Generative Lexicon</h4>
+        <p>Augmenting VerbNet verb representations with GL event structures to better capture polysemy, argument alternations, and contextual meaning shift.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ══════════════════════════════════════════
+     PUBLICATIONS
+══════════════════════════════════════════ -->
+<section id="publications" class="section">
+  <div class="container">
+    <div class="fade-in">
+      <span class="section-label">Selected Recent Work</span>
+      <h2 class="section-title">Publications</h2>
+      <p class="section-subtitle">
+        A selection of recent papers (2023–2025). For the complete list of 286+ publications see
+        <a href="https://aclanthology.org/people/james-pustejovsky/" target="_blank" rel="noopener">ACL Anthology</a>
+        or
+        <a href="https://scholar.google.com/citations?user=56UT_6IAAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar</a>.
+      </p>
+    </div>
+
+    <div class="pub-filters fade-in" id="pubFilters">
+      <button class="pub-filter-btn active" data-year="all">All</button>
+      <button class="pub-filter-btn" data-year="2025">2025</button>
+      <button class="pub-filter-btn" data-year="2024">2024</button>
+      <button class="pub-filter-btn" data-year="2023">2023</button>
+    </div>
+
+    <!-- 2025 -->
+    <div class="pub-year-group fade-in" data-year="2025">
+      <div class="pub-year-label">2025</div>
+      <div class="pub-list">
+
+        <div class="pub-item">
+          <div class="pub-title">Dynamic Epistemic Friction in Dialogue</div>
+          <div class="pub-authors">Timothy Obiso, Kenneth Lai, Abhijnan Nath, Nikhil Krishnaswamy, <strong>James Pustejovsky</strong></div>
+          <div class="pub-venue">Proceedings of CoNLL 2025</div>
+        </div>
+
+        <div class="pub-item">
+          <div class="pub-title">Beyond Benchmarks: Building a Richer Cross-Document Event Coreference Dataset with Decontextualization</div>
+          <div class="pub-authors">Jin Zhao, Jingxuan Tu, Bingyang Ye, Xinrui Hu, Nianwen Xue, <strong>James Pustejovsky</strong></div>
+          <div class="pub-venue">Proceedings of NAACL 2025</div>
+        </div>
+
+        <div class="pub-item">
+          <div class="pub-title">TRACE: Real-Time Multimodal Common Ground Tracking in Situated Collaborative Dialogues</div>
+          <div class="pub-authors">Hannah VanderHoeven, Brady Bhalla, Ibrahim Khebour, et al., <strong>James Pustejovsky</strong></div>
+          <div class="pub-venue">NAACL 2025 (System Demonstrations)</div>
+        </div>
+
+        <div class="pub-item">
+          <div class="pub-title">Enhanced Noun-Noun Compound Interpretation through Textual Enrichment</div>
+          <div class="pub-authors">Bingyang Ye, Jingxuan Tu, <strong>James Pustejovsky</strong></div>
+          <div class="pub-venue">Proceedings of EMNLP 2025</div>
+        </div>
+
+        <div class="pub-item">
+          <div class="pub-title">ProPara-CRTS: Canonical Referent Tracking for Reliable Evaluation of Entity State Tracking</div>
+          <div class="pub-authors">Bingyang Ye, Timothy Obiso, Jingxuan Tu, <strong>James Pustejovsky</strong></div>
+          <div class="pub-venue">Proceedings of IWCS 2025</div>
+        </div>
+
+        <div class="pub-item">
+          <div class="pub-title">A Graph Autoencoder Approach for Gesture Classification with Gesture AMR</div>
+          <div class="pub-authors">Huma Jamil, Ibrahim Khebour, Kenneth Lai, <strong>James Pustejovsky</strong>, Nikhil Krishnaswamy</div>
+          <div class="pub-venue">Proceedings of IWCS 2025</div>
+        </div>
+
+        <div class="pub-item">
+          <div class="pub-title">Representing ISO-Annotated Dynamic Information in UMR</div>
+          <div class="pub-authors">Kiyong Lee, Harry Bunt, <strong>James Pustejovsky</strong>, Alex C. Fang, Chongwon Park</div>
+          <div class="pub-venue">6th International Workshop on Designing Meaning Representations</div>
+        </div>
+
+        <div class="pub-item">
+          <div class="pub-title">Revisiting the ISO-TimeML Abstract Syntax</div>
+          <div class="pub-authors">Harry Bunt, Alex Fang, Kiyong Lee, Volha Petukhova, Purificação Silvano, <strong>James Pustejovsky</strong></div>
+          <div class="pub-venue">21st Joint ACL–ISO Workshop on Interoperable Semantic Annotation</div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- 2024 -->
+    <div class="pub-year-group fade-in" data-year="2024">
+      <div class="pub-year-label">2024</div>
+      <div class="pub-list">
+
+        <div class="pub-item">
+          <div class="pub-title">Linguistically Conditioned Semantic Textual Similarity</div>
+          <div class="pub-authors">Jingxuan Tu, Keer Xu, Liulu Yue, Bingyang Ye, Kyeongmin Rim, <strong>James Pustejovsky</strong></div>
+          <div class="pub-venue">Proceedings of ACL 2024</div>
+          <div class="pub-links">
+            <a href="https://aclanthology.org/2024.acl-long.1/" target="_blank" rel="noopener" class="pub-link">ACL Anthology</a>
+          </div>
+        </div>
+
+        <div class="pub-item">
+          <div class="pub-title">Building a Broad Infrastructure for Uniform Meaning Representations</div>
+          <div class="pub-authors">Julia Bonn, Matthew J. Buchholz, Jayeol Chun, et al., <strong>James Pustejovsky</strong></div>
+          <div class="pub-venue">Proceedings of LREC-COLING 2024</div>
+        </div>
+
+        <div class="pub-item">
+          <div class="pub-title">Common Ground Tracking in Multimodal Dialogue</div>
+          <div class="pub-authors">Ibrahim Khalil Khebour, Kenneth Lai, Mariah Bradford, et al., <strong>James Pustejovsky</strong></div>
+          <div class="pub-venue">Proceedings of LREC-COLING 2024</div>
+        </div>
+
+        <div class="pub-item">
+          <div class="pub-title">Encoding Gesture in Multimodal Dialogue: Creating a Corpus of Multimodal AMR</div>
+          <div class="pub-authors">Kenneth Lai, Richard Brutti, Lucia Donatelli, <strong>James Pustejovsky</strong></div>
+          <div class="pub-venue">Proceedings of LREC-COLING 2024</div>
+        </div>
+
+        <div class="pub-item">
+          <div class="pub-title">GLAMR: Augmenting AMR with GL-VerbNet Event Structure</div>
+          <div class="pub-authors">Jingxuan Tu, Timothy Obiso, Bingyang Ye, Kyeongmin Rim, Keer Xu, et al., <strong>James Pustejovsky</strong></div>
+          <div class="pub-venue">Proceedings of LREC-COLING 2024</div>
+        </div>
+
+        <div class="pub-item">
+          <div class="pub-title">ChainNet: Structured Metaphor and Metonymy in WordNet</div>
+          <div class="pub-authors">Rowan Hall Maudslay, Simone Teufel, Francis Bond, <strong>James Pustejovsky</strong></div>
+          <div class="pub-venue">Proceedings of LREC-COLING 2024</div>
+        </div>
+
+        <div class="pub-item">
+          <div class="pub-title">Spatial and Temporal Language Understanding: Representation, Reasoning, and Grounding</div>
+          <div class="pub-authors">Parisa Kordjamshidi, Qiang Ning, <strong>James Pustejovsky</strong>, Marie-Francine Moens</div>
+          <div class="pub-venue">NAACL 2024 Tutorial</div>
+        </div>
+
+        <div class="pub-item">
+          <div class="pub-title">PropBank Goes Public: Incorporation into Wikidata</div>
+          <div class="pub-authors">Elizabeth Spaulding, Kathryn Conger, Anatole Gershman, et al., <strong>James Pustejovsky</strong></div>
+          <div class="pub-venue">18th Linguistic Annotation Workshop (ACL 2024)</div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- 2023 -->
+    <div class="pub-year-group fade-in" data-year="2023">
+      <div class="pub-year-label">2023</div>
+      <div class="pub-list">
+
+        <div class="pub-item">
+          <div class="pub-title">The Coreference under Transformation Labeling Dataset: Entity Tracking in Procedural Texts</div>
+          <div class="pub-authors">Kyeongmin Rim, Jingxuan Tu, Bingyang Ye, Marc Verhagen, Eben Holderness, <strong>James Pustejovsky</strong></div>
+          <div class="pub-venue">Findings of ACL 2023</div>
+        </div>
+
+        <div class="pub-item">
+          <div class="pub-title">Dense Paraphrasing for Textual Enrichment</div>
+          <div class="pub-authors">Jingxuan Tu, Kyeongmin Rim, Eben Holderness, Bingyang Ye, <strong>James Pustejovsky</strong></div>
+          <div class="pub-venue">Proceedings of IWCS 2023</div>
+        </div>
+
+        <div class="pub-item">
+          <div class="pub-title">Integrated Annotation of Event Structure, Object States, and Entity Coreference</div>
+          <div class="pub-authors">Kyeongmin Rim, <strong>James Pustejovsky</strong></div>
+          <div class="pub-venue">6th Workshop on Computational Models of Reference, Anaphora and Coreference (ACL 2023)</div>
+        </div>
+
+        <div class="pub-item">
+          <div class="pub-title">Scalar Anaphora: Annotating Degrees of Coreference in Text</div>
+          <div class="pub-authors">Bingyang Ye, Jingxuan Tu, <strong>James Pustejovsky</strong></div>
+          <div class="pub-venue">6th Workshop on Computational Models of Reference, Anaphora and Coreference (ACL 2023)</div>
+        </div>
+
+        <div class="pub-item">
+          <div class="pub-title">Annotating Situated Actions in Dialogue</div>
+          <div class="pub-authors">Christopher Tam, Richard Brutti, Kenneth Lai, <strong>James Pustejovsky</strong></div>
+          <div class="pub-venue">4th International Workshop on Designing Meaning Representations</div>
+        </div>
+
+        <div class="pub-item">
+          <div class="pub-title">Mapping AMR to UMR: Resources for Adapting Existing Corpora for Cross-Lingual Compatibility</div>
+          <div class="pub-authors">Julia Bonn, Skatje Myers, Jens E. L. Van Gysel, et al., <strong>James Pustejovsky</strong></div>
+          <div class="pub-venue">21st International Workshop on Treebanks and Linguistic Theories</div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="pub-more-link fade-in">
+      <a href="https://aclanthology.org/people/james-pustejovsky/" target="_blank" rel="noopener" class="btn btn-outline">
+        View All Publications on ACL Anthology ↗
+      </a>
+      &nbsp;
+      <a href="https://scholar.google.com/citations?user=56UT_6IAAAAJ&hl=en" target="_blank" rel="noopener" class="btn btn-outline">
+        Google Scholar Profile ↗
+      </a>
+    </div>
+  </div>
+</section>
+
+
+<!-- ══════════════════════════════════════════
+     JOURNAL ARTICLES
+══════════════════════════════════════════ -->
+<section id="journals" class="section section-alt">
+  <div class="container">
+    <div class="fade-in">
+      <span class="section-label">Selected Journal Work</span>
+      <h2 class="section-title">Journal Articles</h2>
+      <p class="section-subtitle">Key journal publications spanning lexical semantics, temporal reasoning, and computational linguistics.</p>
+    </div>
+    <div class="pub-list fade-in">
+
+      <div class="pub-item">
+        <div class="pub-title">The Generative Lexicon</div>
+        <div class="pub-authors"><strong>James Pustejovsky</strong></div>
+        <div class="pub-venue"><em>Computational Linguistics</em>, 17(4):409–441 · 1991</div>
+      </div>
+
+      <div class="pub-item">
+        <div class="pub-title">The Syntax of Event Structure</div>
+        <div class="pub-authors"><strong>James Pustejovsky</strong></div>
+        <div class="pub-venue"><em>Cognition</em>, 41(1–3):47–81 · 1991</div>
+      </div>
+
+      <div class="pub-item">
+        <div class="pub-title">Are You Sure That This Happened? Assessing the Factuality Degree of Events in Text</div>
+        <div class="pub-authors">Roser Saurí &amp; <strong>James Pustejovsky</strong></div>
+        <div class="pub-venue"><em>Computational Linguistics</em>, 38(2) · 2012</div>
+      </div>
+
+      <div class="pub-item">
+        <div class="pub-title">Situated Meaning in Multimodal Dialogue: Human-Robot and Human-Computer Interactions</div>
+        <div class="pub-authors"><strong>James Pustejovsky</strong> &amp; Nikhil Krishnaswamy</div>
+        <div class="pub-venue"><em>Traitement Automatique des Langues</em>, 61(3) · 2020</div>
+      </div>
+
+      <div class="pub-item">
+        <div class="pub-title">The Qualitative Spatial Dynamics of Motion in Language</div>
+        <div class="pub-authors"><strong>James Pustejovsky</strong> &amp; J. L. Moszkowicz</div>
+        <div class="pub-venue"><em>Spatial Cognition &amp; Computation</em>, 11(1) · 2011</div>
+      </div>
+
+      <div class="pub-item">
+        <div class="pub-title">Coercion in a General Theory of Argument Selection</div>
+        <div class="pub-authors"><strong>James Pustejovsky</strong></div>
+        <div class="pub-venue"><em>Linguistics</em>, 49(6) · 2011</div>
+      </div>
+
+      <div class="pub-item">
+        <div class="pub-title">FactBank: A Corpus Annotated with Event Factuality</div>
+        <div class="pub-authors">Roser Saurí &amp; <strong>James Pustejovsky</strong></div>
+        <div class="pub-venue"><em>Language Resources and Evaluation</em> · 2009</div>
+      </div>
+
+      <div class="pub-item">
+        <div class="pub-title">The TempEval Challenge: Identifying Temporal Relations in Text</div>
+        <div class="pub-authors">M. Verhagen, R. Gaizauskas, F. Schilder, M. Hepple, J. Moszkowicz, <strong>James Pustejovsky</strong></div>
+        <div class="pub-venue"><em>Language Resources and Evaluation</em>, 43(2) · 2009</div>
+      </div>
+
+      <div class="pub-item">
+        <div class="pub-title">Type Theory and Lexical Decomposition</div>
+        <div class="pub-authors"><strong>James Pustejovsky</strong></div>
+        <div class="pub-venue"><em>Journal of Cognitive Science</em> · 2006</div>
+      </div>
+
+      <div class="pub-item">
+        <div class="pub-title">Aspectual Coercion and Logical Polysemy</div>
+        <div class="pub-authors"><strong>James Pustejovsky</strong> &amp; Pierrette Bouillon</div>
+        <div class="pub-venue"><em>Journal of Semantics</em> · 1995</div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ══════════════════════════════════════════
+     BOOKS
+══════════════════════════════════════════ -->
+<section id="books" class="section section-alt">
+  <div class="container">
+    <div class="fade-in">
+      <span class="section-label">Authored &amp; Edited</span>
+      <h2 class="section-title">Books</h2>
+      <p class="section-subtitle">Selected monographs, edited volumes, and textbooks.</p>
+    </div>
+    <div class="books-grid fade-in">
+
+      <div class="book-card">
+        <div class="book-spine">📘</div>
+        <div class="book-info">
+          <div class="book-title">The Generative Lexicon</div>
+          <div class="book-meta">James Pustejovsky</div>
+          <div class="book-publisher">MIT Press, 1995</div>
+          <p style="font-size:.83rem;color:var(--text-muted);margin-top:.5rem;">The foundational monograph introducing Generative Lexicon Theory — qualia structure, type coercion, and the computational treatment of polysemy.</p>
+        </div>
+      </div>
+
+      <div class="book-card">
+        <div class="book-spine">📔</div>
+        <div class="book-info">
+          <div class="book-title">The Handbook of Linguistic Annotation</div>
+          <div class="book-meta">Nancy Ide &amp; James Pustejovsky (eds.)</div>
+          <div class="book-publisher">Springer, 2017</div>
+          <p style="font-size:.83rem;color:var(--text-muted);margin-top:.5rem;">Comprehensive reference covering annotation theory, methodology, and frameworks across all levels of linguistic structure.</p>
+        </div>
+      </div>
+
+      <div class="book-card">
+        <div class="book-spine">📙</div>
+        <div class="book-info">
+          <div class="book-title">Interpreting Motion: Grounded Representations for Spatial Language</div>
+          <div class="book-meta">I. Mani &amp; James Pustejovsky</div>
+          <div class="book-publisher">Oxford University Press, 2012</div>
+          <p style="font-size:.83rem;color:var(--text-muted);margin-top:.5rem;">Formal and computational treatment of motion verbs, spatial language, and the ISO-Space framework.</p>
+        </div>
+      </div>
+
+      <div class="book-card">
+        <div class="book-spine">📒</div>
+        <div class="book-info">
+          <div class="book-title">Natural Language Annotation for Machine Learning</div>
+          <div class="book-meta">James Pustejovsky &amp; Amber Stubbs</div>
+          <div class="book-publisher">O'Reilly Media, 2012</div>
+          <p style="font-size:.83rem;color:var(--text-muted);margin-top:.5rem;">A practical guide to designing annotation schemes and building corpora for NLP and machine learning.</p>
+        </div>
+      </div>
+
+      <div class="book-card">
+        <div class="book-spine">📕</div>
+        <div class="book-info">
+          <div class="book-title">Advances in Generative Lexicon Theory</div>
+          <div class="book-meta">J. Pustejovsky, P. Bouillon, H. Isahara &amp; K. Kanzaki (eds.)</div>
+          <div class="book-publisher">Springer, 2012</div>
+          <p style="font-size:.83rem;color:var(--text-muted);margin-top:.5rem;">International research extending and applying Generative Lexicon Theory through compositional semantics techniques.</p>
+        </div>
+      </div>
+
+      <div class="book-card">
+        <div class="book-spine">📗</div>
+        <div class="book-info">
+          <div class="book-title">The Language of Time: A Reader</div>
+          <div class="book-meta">I. Mani, J. Pustejovsky &amp; R. Gaizauskas (eds.)</div>
+          <div class="book-publisher">Oxford University Press, 2005</div>
+          <p style="font-size:.83rem;color:var(--text-muted);margin-top:.5rem;">Foundational readings on temporal language, temporal reasoning, and TimeML annotation.</p>
+        </div>
+      </div>
+
+      <div class="book-card">
+        <div class="book-spine">📓</div>
+        <div class="book-info">
+          <div class="book-title">Events as Grammatical Objects</div>
+          <div class="book-meta">Carol L. Tenny &amp; James Pustejovsky (eds.)</div>
+          <div class="book-publisher">CSLI Publications, 2000</div>
+          <p style="font-size:.83rem;color:var(--text-muted);margin-top:.5rem;">Explores how natural language grammars structure and refer to events, bringing together linguistic and philosophical perspectives.</p>
+        </div>
+      </div>
+
+      <div class="book-card">
+        <div class="book-spine">📖</div>
+        <div class="book-info">
+          <div class="book-title">Semantics and the Lexicon</div>
+          <div class="book-meta">James Pustejovsky (ed.)</div>
+          <div class="book-publisher">Kluwer Academic, 1993</div>
+          <p style="font-size:.83rem;color:var(--text-muted);margin-top:.5rem;">Integrates lexical semantics research with knowledge representation and computational linguistics perspectives.</p>
+        </div>
+      </div>
+
+      <div class="book-card">
+        <div class="book-spine">📚</div>
+        <div class="book-info">
+          <div class="book-title">Lexical Semantics: The Problem of Polysemy</div>
+          <div class="book-meta">James Pustejovsky &amp; Branimir Boguraev (eds.)</div>
+          <div class="book-publisher">Cambridge University Press, 1996</div>
+          <p style="font-size:.83rem;color:var(--text-muted);margin-top:.5rem;">Addresses lexical ambiguity from a computational linguistics perspective.</p>
+        </div>
+      </div>
+
+      <div class="book-card">
+        <div class="book-spine">📑</div>
+        <div class="book-info">
+          <div class="book-title">Annotating, Extracting and Reasoning about Time and Events</div>
+          <div class="book-meta">F. Schilder, G. Katz &amp; J. Pustejovsky (eds.)</div>
+          <div class="book-publisher">Springer LNAI, 2007</div>
+          <p style="font-size:.83rem;color:var(--text-muted);margin-top:.5rem;">State-of-the-art survey on TimeML and temporal information extraction, centered on the emerging ISO-TimeML standard.</p>
+        </div>
+      </div>
+
+      <div class="book-card">
+        <div class="book-spine">📋</div>
+        <div class="book-info">
+          <div class="book-title">Corpus Processing for Lexical Acquisition</div>
+          <div class="book-meta">Branimir Boguraev &amp; James Pustejovsky (eds.)</div>
+          <div class="book-publisher">MIT Press, 1996</div>
+          <p style="font-size:.83rem;color:var(--text-muted);margin-top:.5rem;">Addresses lexicon acquisition from corpora as essential for natural language processing systems.</p>
+        </div>
+      </div>
+
+      <div class="book-card">
+        <div class="book-spine">📝</div>
+        <div class="book-info">
+          <div class="book-title">Readings in the Lexicon: Interdisciplinary Perspectives</div>
+          <div class="book-meta">James Pustejovsky &amp; Yorick Wilks (eds.)</div>
+          <div class="book-publisher">MIT Press, 2012</div>
+          <p style="font-size:.83rem;color:var(--text-muted);margin-top:.5rem;">Cross-disciplinary perspectives on the lexicon drawing from linguistics, cognitive science, and AI.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ══════════════════════════════════════════
+     TEACHING
+══════════════════════════════════════════ -->
+<section id="teaching" class="section">
+  <div class="container">
+    <div class="fade-in">
+      <span class="section-label">Brandeis University</span>
+      <h2 class="section-title">Teaching</h2>
+      <p class="section-subtitle">
+        Courses in natural language processing, computational semantics, and linguistic theory at the
+        undergraduate and graduate levels.
+      </p>
+    </div>
+    <div class="courses-grid fade-in">
+
+      <div class="course-card">
+        <div class="course-code">CS 115B · Spring 2025</div>
+        <h3>Fundamentals of Natural Language Processing</h3>
+        <p>Core concepts and algorithms in computational linguistics and NLP — covering syntax, semantics, parsing, language models, and machine learning for text.</p>
+        <div class="course-badges">
+          <span class="tag">NLP</span>
+          <span class="tag">Machine Learning</span>
+          <span class="tag">Undergraduate</span>
+        </div>
+      </div>
+
+      <div class="course-card">
+        <div class="course-code">CS / LING 114A</div>
+        <h3>Introduction to Computational Linguistics</h3>
+        <p>An introduction to the computational modeling of language — finite automata, regular expressions, context-free grammars, parsing, and corpus-based methods.</p>
+        <div class="course-badges">
+          <span class="tag">Formal Grammars</span>
+          <span class="tag">Parsing</span>
+          <span class="tag">Undergraduate</span>
+        </div>
+      </div>
+
+      <div class="course-card" style="border-top-color:var(--teal);">
+        <div class="course-code" style="color:var(--teal);">CS / LING 216</div>
+        <h3>Computational Semantics</h3>
+        <p>Graduate seminar on formal and computational approaches to meaning — lambda calculus, type theory, Generative Lexicon, temporal semantics, and distributional models.</p>
+        <div class="course-badges">
+          <span class="tag tag-teal">Semantics</span>
+          <span class="tag tag-teal">Type Theory</span>
+          <span class="tag tag-teal">Graduate</span>
+        </div>
+      </div>
+
+      <div class="course-card" style="border-top-color:var(--teal);">
+        <div class="course-code" style="color:var(--teal);">LING 130</div>
+        <h3>Introduction to Generative Lexicon</h3>
+        <p>A foundational course in lexical semantics covering qualia structure, type coercion, co-composition, and the computational treatment of word meaning and polysemy.</p>
+        <div class="course-badges">
+          <span class="tag tag-teal">Generative Lexicon</span>
+          <span class="tag tag-teal">Lexical Semantics</span>
+          <span class="tag tag-teal">Graduate</span>
+        </div>
+      </div>
+
+      <div class="course-card" style="border-top-color:var(--accent);">
+        <div class="course-code" style="color:#8a6b1a;">CS 216 / LING 216</div>
+        <h3>Language Annotation and Machine Learning</h3>
+        <p>Hands-on course on building annotated corpora — annotation scheme design, inter-annotator agreement, active learning, and applications to NLP tasks.</p>
+        <div class="course-badges">
+          <span class="tag tag-gold">Annotation</span>
+          <span class="tag tag-gold">Corpora</span>
+          <span class="tag tag-gold">Graduate</span>
+        </div>
+      </div>
+
+      <div class="course-card" style="border-top-color:var(--accent);">
+        <div class="course-code" style="color:#8a6b1a;">ESSLLI / LSA Summer Institutes</div>
+        <h3>Invited Summer School Courses</h3>
+        <p>Regular lecturer at ESSLLI (2017, 2018) and LSA Linguistic Institute (2019) on topics in temporal semantics, spatial language, and multimodal meaning.</p>
+        <div class="course-badges">
+          <span class="tag tag-gold">ESSLLI</span>
+          <span class="tag tag-gold">LSA Institute</span>
+          <span class="tag tag-gold">Invited</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ══════════════════════════════════════════
+     CONTACT / FOOTER
+══════════════════════════════════════════ -->
+<section id="contact">
+  <div class="container">
+    <div class="contact-grid fade-in">
+      <div class="contact-info">
+        <span class="section-label" style="color:var(--accent-lt);">Get In Touch</span>
+        <h2>Contact</h2>
+        <p style="margin-bottom:1.5rem;">
+          I welcome inquiries from prospective graduate students, collaborators, and colleagues.
+          The Computational Linguistics MS program at Brandeis admits students with backgrounds
+          in linguistics, computer science, and related fields.
+        </p>
+        <div class="contact-detail">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+          <div>
+            <div>Email</div>
+            <a href="mailto:jamesp@brandeis.edu" style="color:var(--accent-lt);">jamesp@brandeis.edu</a>
+          </div>
+        </div>
+        <div class="contact-detail">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.79 19.79 19.79 0 01.09 1.18 2 2 0 012.08 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.91 7.91a16 16 0 006.72 6.72l1.41-1.41a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+          <div>
+            <div>Phone</div>
+            <a href="tel:+17817362709" style="color:var(--accent-lt);">+1 (781) 736-2709</a>
+          </div>
+        </div>
+        <div class="contact-detail">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          <div>
+            <div>Office</div>
+            <div>Volen 258, Brandeis University<br/>415 South Street, Waltham, MA 02454</div>
+          </div>
+        </div>
+        <div class="contact-detail">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><polyline points="9,22 9,12 15,12 15,22"/></svg>
+          <div>
+            <div>Department</div>
+            <a href="https://www.brandeis.edu/computer-science/" target="_blank" rel="noopener" style="color:var(--accent-lt);">Michtom School of Computer Science</a>
+          </div>
+        </div>
+        <div class="social-links">
+          <a href="https://scholar.google.com/citations?user=56UT_6IAAAAJ&hl=en" target="_blank" rel="noopener" class="social-link">Google Scholar</a>
+          <a href="https://aclanthology.org/people/james-pustejovsky/" target="_blank" rel="noopener" class="social-link">ACL Anthology</a>
+          <a href="https://www.researchgate.net/profile/James-Pustejovsky" target="_blank" rel="noopener" class="social-link">ResearchGate</a>
+          <a href="https://www.linkedin.com/in/james-pustejovsky-839a994/" target="_blank" rel="noopener" class="social-link">LinkedIn</a>
+          <a href="https://twitter.com/jamespusto" target="_blank" rel="noopener" class="social-link">𝕏 @jamespusto</a>
+          <a href="https://en.wikipedia.org/wiki/James_Pustejovsky" target="_blank" rel="noopener" class="social-link">Wikipedia</a>
+        </div>
+      </div>
+
+      <div class="contact-map">
+        <h3>Affiliations &amp; Programs</h3>
+        <ul style="display:flex;flex-direction:column;gap:.75rem;">
+          <li>
+            <a href="https://www.brandeis.edu/computer-science/computational-linguistics/index.html" target="_blank" rel="noopener" style="color:var(--accent-lt);font-weight:600;">Computational Linguistics MS Program</a>
+            <p style="font-size:.83rem;color:rgba(255,255,255,.5);margin-top:.2rem;">Brandeis University</p>
+          </li>
+          <li>
+            <a href="https://www.cs.brandeis.edu/~llc/" target="_blank" rel="noopener" style="color:var(--accent-lt);font-weight:600;">Lab for Linguistics and Computation (BLLC)</a>
+            <p style="font-size:.83rem;color:rgba(255,255,255,.5);margin-top:.2rem;">Brandeis University</p>
+          </li>
+          <li>
+            <a href="https://www.colorado.edu/research/ai-institute/" target="_blank" rel="noopener" style="color:var(--accent-lt);font-weight:600;">NSF AI Institute for Student-AI Teaming (iSAT)</a>
+            <p style="font-size:.83rem;color:rgba(255,255,255,.5);margin-top:.2rem;">University of Colorado Boulder / Brandeis</p>
+          </li>
+          <li>
+            <a href="https://www.brandeis.edu/volen/" target="_blank" rel="noopener" style="color:var(--accent-lt);font-weight:600;">Volen Center for Complex Systems</a>
+            <p style="font-size:.83rem;color:rgba(255,255,255,.5);margin-top:.2rem;">Brandeis University</p>
+          </li>
+          <li>
+            <a href="https://cs-114.org/" target="_blank" rel="noopener" style="color:var(--accent-lt);font-weight:600;">CS115B — NLP Course Site</a>
+            <p style="font-size:.83rem;color:rgba(255,255,255,.5);margin-top:.2rem;">Spring 2025</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div>© 2025 James Pustejovsky · Brandeis University</div>
+      <div>
+        <a href="https://pages.github.com/" target="_blank" rel="noopener" style="color:rgba(255,255,255,.35);">Hosted on GitHub Pages</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ══════════════════════════════════════════
+     SCRIPTS
+══════════════════════════════════════════ -->
+<script>
+// Navbar scroll effect
+const navbar = document.getElementById('navbar');
+window.addEventListener('scroll', () => {
+  navbar.classList.toggle('scrolled', window.scrollY > 20);
+});
+
+// Mobile nav toggle
+const navToggle = document.getElementById('navToggle');
+const navLinks  = document.getElementById('navLinks');
+navToggle.addEventListener('click', () => {
+  navLinks.classList.toggle('open');
+});
+navLinks.querySelectorAll('a').forEach(link => {
+  link.addEventListener('click', () => navLinks.classList.remove('open'));
+});
+
+// Active nav link on scroll
+const sections = document.querySelectorAll('section[id]');
+const navAnchors = document.querySelectorAll('.nav-links a[href^="#"]');
+const observer = new IntersectionObserver(entries => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      const id = entry.target.id;
+      navAnchors.forEach(a => {
+        a.classList.toggle('active', a.getAttribute('href') === '#' + id);
+      });
+    }
+  });
+}, { rootMargin: '-40% 0px -55% 0px' });
+sections.forEach(s => observer.observe(s));
+
+// Publication year filter
+const filterBtns = document.querySelectorAll('.pub-filter-btn');
+const pubGroups  = document.querySelectorAll('.pub-year-group');
+filterBtns.forEach(btn => {
+  btn.addEventListener('click', () => {
+    filterBtns.forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    const year = btn.dataset.year;
+    pubGroups.forEach(g => {
+      g.style.display = (year === 'all' || g.dataset.year === year) ? '' : 'none';
+    });
+  });
+});
+
+// Scroll fade-in
+const fadeEls = document.querySelectorAll('.fade-in');
+const fadeObserver = new IntersectionObserver(entries => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add('visible');
+      fadeObserver.unobserve(entry.target);
+    }
+  });
+}, { threshold: 0.08 });
+fadeEls.forEach(el => fadeObserver.observe(el));
+</script>
+
+</body>
+</html>
