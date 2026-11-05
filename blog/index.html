@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Blog — James Pustejovsky</title>
+  <meta name="description" content="Notes on research and courses from James Pustejovsky, Brandeis University." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,700;1,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/assets/css/main.css" />
+</head>
+<body>
+
+<nav id="navbar">
+  <div class="container nav-inner">
+    <a href="/" class="nav-brand">James <span>Pustejovsky</span></a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="/#research">Research</a></li>
+      <li><a href="/#publications">Publications</a></li>
+      <li><a href="/#teaching">Teaching</a></li>
+      <li><a href="/blog/" class="active">Blog</a></li>
+      <li><a href="/#contact">Contact</a></li>
+    </ul>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<header class="page-header">
+  <div class="container">
+    <span class="section-label">Notes &amp; Updates</span>
+    <h1>Blog</h1>
+    <p>Posts on research and on my courses. Each course site links here filtered to its own posts.</p>
+  </div>
+</header>
+
+<main class="section">
+  <div class="container">
+    <div class="pub-filters" id="postFilters"></div>
+
+    <div class="post-list">
+      <!-- Newest first. To add a post: copy blog/_template/ to blog/<slug>/, then add a card here. -->
+
+      <article class="post-card" data-tags="cs135 cs115 news">
+        <h2><a href="/blog/welcome/">Welcome to the blog</a></h2>
+        <div class="post-meta">November 5, 2026</div>
+        <p>A single place for notes on research and on CS 135 and CS 115.</p>
+        <div class="post-tags" data-tags="cs135 cs115 news"></div>
+      </article>
+
+    </div>
+    <p class="post-empty" id="postEmpty" style="display:none"></p>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-bottom">
+      <div>© 2026 James Pustejovsky · Brandeis University</div>
+      <div><a href="/" style="color:rgba(255,255,255,.35);">pusto.com</a></div>
+    </div>
+  </div>
+</footer>
+
+<script src="/blog/blog.js"></script>
+</body>
+</html>
